@@ -14,13 +14,13 @@ const [visible, setVisible] = useState(false);
             <hr className='w-2/4 border-none h-[1.5px]  bg-gray-700 hidden' />
             </NavLink>
 
-            <NavLink to="/collection" className='flex flex-col items-center gap-1'>
-            <p>COLLECTION</p>
+            <NavLink to="/about" className='flex flex-col items-center gap-1'>
+            <p>ABOUT</p>
             <hr className='w-2/4 border-none h-[1.5px]  bg-gray-700 hidden' />
             </NavLink>
 
-            <NavLink to="/about" className='flex flex-col items-center gap-1'>
-            <p>ABOUT</p>
+            <NavLink to="/collection" className='flex flex-col items-center gap-1'>
+            <p>COLLECTION</p>
             <hr className='w-2/4 border-none h-[1.5px]  bg-gray-700 hidden' />
             </NavLink>
 
