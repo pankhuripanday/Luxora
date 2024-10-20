@@ -1,18 +1,11 @@
-import p_img1 from './p_img1.png'
 import p_img2_1 from './p_img2_1.png'
 import p_img2_2 from './p_img2_2.png'
 import p_img2_3 from './p_img2_3.png'
 import p_img2_4 from './p_img2_4.png'
-import p_img3 from './p_img3.png'
-import p_img4 from './p_img4.png'
 import p_img5 from './p_img5.png'
-import p_img6 from './p_img6.png'
 import p_img7 from './p_img7.png'
-import p_img8 from './p_img8.png'
-import p_img9 from './p_img9.png'
 import p_img10 from './p_img10.png'
 import p_img11 from './p_img11.png'
-import p_img12 from './p_img12.png'
 import p_img13 from './p_img13.png'
 import p_img14 from './p_img14.png'
 import p_img15 from './p_img15.png'
@@ -29,20 +22,15 @@ import p_img25 from './p_img25.png'
 import p_img26 from './p_img26.png'
 import p_img27 from './p_img27.png'
 import p_img28 from './p_img28.png'
-import p_img29 from './p_img29.png'
 import p_img30 from './p_img30.png'
-import p_img31 from './p_img31.png'
 import p_img32 from './p_img32.png'
 import p_img33 from './p_img33.png'
 import p_img34 from './p_img34.png'
 import p_img35 from './p_img35.png'
 import p_img36 from './p_img36.png'
-import p_img37 from './p_img37.png'
-import p_img38 from './p_img38.png'
 import p_img39 from './p_img39.png'
 import p_img40 from './p_img40.png'
 import p_img41 from './p_img41.png'
-import p_img42 from './p_img42.png'
 import p_img43 from './p_img43.png'
 import p_img44 from './p_img44.png'
 import p_img45 from './p_img45.png'
@@ -96,18 +84,7 @@ export const assets = {
 }
 
 export const products = [
-    {
-        _id: "aaaaa",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img1],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
-        date: 1716634345448,
-        bestseller: true
-    },
+   
     {
         _id: "aaaab",
         name: "Men Round Neck Pure Cotton T-shirt",
@@ -120,32 +97,10 @@ export const products = [
         date: 1716621345448,
         bestseller: true
     },
+    
+   
     {
-        _id: "aaaac",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img3],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716234545448,
-        bestseller: true
-    },
-    {
-        _id: "aaaad",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
-        image: [p_img4],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "XXL"],
-        date: 1716621345448,
-        bestseller: true
-    },
-    {
-        _id: "aaaae",
+        _id: "aaaaa",
         name: "Women Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 130,
@@ -154,20 +109,9 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["M", "L", "XL"],
         date: 1716622345448,
-        bestseller: true
+        bestseller: false
     },
-    {
-        _id: "aaaaf",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img6],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716623423448,
-        bestseller: true
-    },
+    
     {
         _id: "aaaag",
         name: "Men Tapered Fit Flat-Front Trousers",
@@ -178,32 +122,9 @@ export const products = [
         subCategory: "Bottomwear",
         sizes: ["S", "L", "XL"],
         date: 1716621542448,
-        bestseller: false
+        bestseller: true
     },
-    {
-        _id: "aaaah",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img8],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716622345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaai",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img9],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
-        date: 1716621235448,
-        bestseller: false
-    },
+    
     {
         _id: "aaaaj",
         name: "Men Tapered Fit Flat-Front Trousers",
@@ -226,19 +147,7 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["S", "M", "L"],
         date: 1716623345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaal",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 150,
-        image: [p_img12],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716624445448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaam",
@@ -250,7 +159,7 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716625545448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaan",
@@ -262,7 +171,7 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716626645448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaao",
@@ -334,7 +243,7 @@ export const products = [
         subCategory: "Bottomwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716633245448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaau",
@@ -394,7 +303,7 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716638745448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaaz",
@@ -432,18 +341,7 @@ export const products = [
         date: 1716642045448,
         bestseller: false
     },
-    {
-        _id: "aaabc",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 210,
-        image: [p_img29],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716643145448,
-        bestseller: false
-    },
+    
     {
         _id: "aaabd",
         name: "Girls Round Neck Cotton Top",
@@ -456,18 +354,7 @@ export const products = [
         date: 1716644245448,
         bestseller: false
     },
-    {
-        _id: "aaabe",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img31],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716645345448,
-        bestseller: false
-    },
+    
     {
         _id: "aaabf",
         name: "Men Round Neck Pure Cotton T-shirt",
@@ -528,30 +415,7 @@ export const products = [
         date: 1716650845448,
         bestseller: false
     },
-    {
-        _id: "aaabk",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 250,
-        image: [p_img37],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716651945448,
-        bestseller: false
-    },
-    {
-        _id: "aaabl",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 280,
-        image: [p_img38],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716653045448,
-        bestseller: false
-    },
+    
     {
         _id: "aaabm",
         name: "Men Printed Plain Cotton Shirt",
@@ -588,18 +452,7 @@ export const products = [
         date: 1716656345448,
         bestseller: false
     },
-    {
-        _id: "aaabp",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 300,
-        image: [p_img42],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716657445448,
-        bestseller: false
-    },
+   
     {
         _id: "aaabq",
         name: "Kid Tapered Slim Fit Trouser",
