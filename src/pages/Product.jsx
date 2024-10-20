@@ -84,7 +84,7 @@ useEffect(() => {
           <p className="px-5 py-3 text-sm border">Reviews (122)</p>
         </div>
         <div className="flex flex-col gap-4 px-6 py-6 text-sm text-gray-500 border">
-          <p>Discover a wide range of top-quality products, from fashion to electronics, all in one place! Our user-friendly platform makes shopping easy, offering the latest trends and unbeatable deals.</p>
+          <p>Discover a wide range of top-quality products, from fashion to electronics, all at one place! Our user-friendly platform makes shopping easy, offering the latest trends and unbeatable deals.</p>
           <p>Enjoy secure payment options, fast delivery, and excellent customer service for a seamless shopping experience. Shop now and find everything you need!</p>
         </div>
       </div>

@@ -15,7 +15,7 @@ const BestSeller = () => {
     return (
         <div className='my-10'>
             <div className='py-8 text-3xl text-center'>
-                <Title text1={'BEST'} text2={'SELLERS'} />
+                <Title text1={'HOT'} text2={'SELLERS'} />
                 <p className='w-3/4 m-auto text-xs text-gray-600 sm:text-sm md:text-base'>
                 Top of the Charts: Best Sellers You Need in Your Cart!
                 </p>

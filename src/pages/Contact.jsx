@@ -15,7 +15,7 @@ const Contact = () => {
         <img className='w-full md:max-w-[480px]' src={assets.contact_img} alt="" />
         <div className='flex flex-col items-start justify-center gap-6'>
           <p className='text-xl font-semibold text-gray-600'>Our Store</p>
-          <p>54179 williams Green <br /> Suite 350, California, USA</p>
+          <p>54179 Williams Green <br /> Suite 350, California, USA</p>
           <p className='text-gray-600'>Tel:(7845) 546-012 <br />Email:admin@luxora.com</p>
           <p className='text-xl font-semibold text-gray-600' >Career at Luxora</p>
           <p className='text-gray-500'>Learn more about our teams and job openings.</p>
